@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Regisration Form </title> 
+</head>
+<body>
+    <div class="container">
+        <header>ANSELMO A. SANDOVAL MNHS - REGISTRATION FOR SY 2023-2024</header>
+         
+        <h5><span class="required"> *</span> Indicates required question</h5>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Learner Information</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>School Year<span class="required"> *</span></label>
+                            <input type="text" placeholder="2023-2024" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Grade level to Enroll<span class="required"> *</span></label>
+                            <input type="text" placeholder="Grade 7/Grade 11" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>With LRN?<span class="required"> *</span></label>
+                            <select required>
+                                <option disabled selected>Yes/No</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Returning (Balik-Aral)</label>
+                            <select>
+                                <option disabled selected>Yes/No</option>
+                                <option>Yes</option>
+                                <option>No</option> 
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>PSA Birth Certificate No. </label>
+                            <input type="text" placeholder="If available upon registration">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Learner Reference No. (LRN)</label>
+                            <input type="text" placeholder="Enter your LRN">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Last Name<span class="required"> *</span></label>
+                            <input type="text" placeholder="Enter your last name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>First Name<span class="required"> *</span></label>
+                            <input type="text" placeholder="Enter your first name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Middle Name</label>
+                            <input type="text" placeholder="Enter your middle name">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Extension Name e.g. Jr., III (if applicable)</label>
+                            <input type="text" placeholder="Enter your extension name">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender<span class="required"> *</span></label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Age<span class="required"> *</span></label>
+                            <input type="text" placeholder="Enter your age" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Belonging to any Indigenous Peoples (IP) Community/Indigenous Cultural Community?<span class="required"> *</span></label>
+                            <select required>
+                                <option disabled selected>Yes/No</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>If Yes, please specify:</label>
+                            <input type="text" placeholder="">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mother Tongue</label>
+                            <input type="text" placeholder="Enter your mother tounge">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Is your family a beneficiary of 4Ps?<span class="required"> *</span></label>
+                            <select required>
+                                <option disabled selected>Yes/No</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label style="font-size: 11.5px;">If Yes, indicate the 4Ps Household ID number:</label>
+                            <input type="text" placeholder="">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Is the child a Learner with Disability?</label>
+                            <select>
+                                <option disabled selected>Yes/No</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>If yes, specify the type of disability</label>
+                            <select>
+                                <option style="font-size: 12px;" disabled selected>Yes/No</option>
+                                <option style="font-size: 12px;">Visual Impairment (a. blind)</option>
+                                <option style="font-size: 12px;">Visual Impairment (b. low vision)</option>
+                                <option style="font-size: 12px;">Multiple Disorder</option>
+                                <option style="font-size: 12px;">Hearing Impairment</option>
+                                <option style="font-size: 12px;">Autism Spectrum Disorder</option>
+                                <option style="font-size: 12px;">Speech/Language Disorder</option>
+                                <option style="font-size: 12px;">Learning Disability</option>
+                                <option style="font-size: 12px;">Emotional-Behavioral Disorder</option>
+                                <option style="font-size: 12px;">Celebral Palsy</option>
+                                <option style="font-size: 12px;">Intellectual Disability</option>
+                                <option style="font-size: 12px;">Orthopedic/Physical Handicap</option>
+                                <option style="font-size: 12px;">Special Health Problem/Chronic Disease (Cancer)</option>
+                                <option style="font-size: 12px;">Other</option>
+                            </select>
+                            <label>If other, fill up the box below</label>
+                            <input type="text" placeholder="">
+                        </div>
+                    </div>
+                       
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Current Address</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>House Number</label>
+                            <input type="text" placeholder="Enter your house number">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Street/Sitio<span class="required"> *</span></label>
+                            <input type="text" placeholder="Enter your Street/Sitio" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Barangay<span class="required"> *</span></label>
+                            <input type="text" placeholder="Enter your Barangay" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Municipality<span class="required"> *</span></label>
+                            <input type="text" placeholder="Enter your Municipality" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Province<span class="required"> *</span></label>
+                            <input type="text" placeholder="Enter your Province" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Same with your current address?</label>
+                            <select>
+                                <option disabled selected>Yes/No</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details permanent address">
+                    <span class="title">If No,  please indicate permanent address</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>House Number</label>
+                            <input type="text" placeholder="Enter your house number">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Street/Sitio</label>
+                            <input type="text" placeholder="Enter your Street/Sitio">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Barangay</label>
+                            <input type="text" placeholder="Enter your Barangay">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Municipality</label>
+                            <input type="text" placeholder="Enter your Municipality">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Province</label>
+                            <input type="text" placeholder="Enter your Province">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details family">
+                    <span class="title">PARENT'S/GUARDIAN'S INFORMATION</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Father Name</label>
+                            <input type="text" placeholder="Last Name, First Name, Middle Name">
+                            <label>Contact Number</label>
+                            <input type="text" placeholder="">
+                        </div>                      
+
+                        <div class="input-field">
+                            <label>Mother's Maiden Name</label>
+                            <input type="text" placeholder="Last Name, First Name, Middle Name" required>
+                            <label>Contact Number</label>
+                            <input type="text" placeholder="">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Guardian's Name</label>
+                            <input type="text" placeholder="Last Name, First Name, Middle Name">
+                            <label>Contact Number</label>
+                            <input type="text" placeholder="" required>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="details return">
+                    <span class="title">For Returning Learners (Balik-Aral) and Those Who Shall Transfer/Move In</span>
+                
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Last Grade Level Completed</label>
+                            <input type="text" placeholder="">
+                            <label>School Address</label>
+                            <input type="text" placeholder="">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Last School Year Completed</label>
+                            <input type="text" placeholder="">
+                            <label>School ID</label>
+                            <input type="text" placeholder="">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Last school attended</label>
+                            <input type="text" placeholder="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details SHS">
+                    <span class="title">For Learners in Senior High School</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Semester</label>
+                            <select>
+                                <option disabled selected>1st sem/2nd sem</option>
+                                <option>1st sem</option>
+                                <option>2nd sem</option>
+                            </select>
+                            <label>Track/Strand</label>
+                            <select>
+                                <option style="font-size: 12px;" disabled selected>Track/Strand</option>
+                                <option style="font-size: 12px;">Academic-STEM</option>
+                                <option style="font-size: 12px;">Academic-ABM</option>
+                                <option style="font-size: 12px;">Academic-HUMMS</option>
+                                <option style="font-size: 12px;">Academic-PBM</option>
+                                <option style="font-size: 12px;">TVL-ICT</option>
+                                <option style="font-size: 12px;">TVL-Home Economics</option>
+                                <option style="font-size: 12px;">TVL-EIM</option>
+                                <option style="font-size: 12px;">TVL-SMAW</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <header><span class="title">If school will implement other Distance Learning Modalities aside from face-to-face instruction, what would you prefer for your child?</span></header>
+                            <input type="checkbox" name="Modular (Print)" value="Modular (Print)">Modular (Print)<br>
+                            <input type="checkbox" name="Modular (Print)" value="Modular (Print)">Modular (Digital)<br>
+                            <input type="checkbox" name="Modular (Print)" value="Modular (Print)">Online<br>
+                            <input type="checkbox" name="Modular (Print)" value="Modular (Print)">Educational Television<br>
+                            <input type="checkbox" name="Modular (Print)" value="Modular (Print)">Radio-based instruction<br>
+                            <input type="checkbox" name="Modular (Print)" value="Modular (Print)">Homeschooling<br>
+                            <input type="checkbox" name="Modular (Print)" value="Modular (Print)">Blended
+
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
